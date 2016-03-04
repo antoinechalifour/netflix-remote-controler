@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "socketio.js",
+  "scripts": {
+    "test": "echo \"HAHAHAH 💩 \"",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^1.4.5",
+    "vorpal": "^1.10.8"
+  }
+}

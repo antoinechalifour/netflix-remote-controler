@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Netflix Remote Control",
+  "description": "This extensions allows remote control for Netflix players",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["http://*.netflix.com/watch/*"],
+    "js": ["dist/index.js"],
+    "run_at": "document_end"  
+  }]
+}

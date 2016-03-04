@@ -1,0 +1,7 @@
+app/node_modules/
+server/node_modules/
+extension/node_modules/
+extension.crx
+extension.pem
+demo/*
+.DS_STORE
